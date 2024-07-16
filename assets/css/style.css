@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.raleway-uniquifier {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+/*MENU NAVBAR*/
+.navbar{
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+#logo img{
+    height: 50px;
+    width: 50px;
+}
+#logo span{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+  /*CARRUSEL*/
+#carousel-slide h5{
+    font-weight: 700;
+    font-size: 25px;
+}
+#carousel-slide img{
+    height: 100vh;
+}
+main{
+    background-color: #000;
+}
