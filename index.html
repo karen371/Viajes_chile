@@ -27,12 +27,15 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" >
+        <nav class="navbar navbar-expand-lg  fixed-top" data-bs-theme="dark" >
             <div class="container-fluid px-5">
-                    <a class="navbar-brand" href="#" id="logo">
-                    <img src="assets/img/logo.png" alt="logo">
-                    <span>Viajes chile</span>
+                <a class="navbar-brand" href="#" id="logo">
+                  <img src="assets/img/logo.png" alt="logo">
+                  <span>Viajes chile</span>
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                       <li class="nav-item ">
@@ -99,16 +102,96 @@
          </div>
     </header>
     <main>
-       
         </section>
-        <section>
-            <!--quienes somos-->
+        <!--quienes somos DESAPARECER EN TAMAOS PEQUEÑOS-->
+        <section id="section-uno">
+            <div>
+              <h2>¿QUIÉNES SOMOS?</h2>
+            </div>
+            <hr>
+            <div id="parrafos">
+              <div class="item">
+               <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+               <div class="texto">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                  deserunt mollit anim id est laborum."
+               </p>
+               </div>
+              </div>
+              <div class="item">
+                <div class="texto">
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum."
+                  </p>
+                </div>
+                <div class="icon"><i class="fa fa-mountain" aria-hidden="true"></i></div>
+              </div>
+              <div class="item">
+                <div class="icon"><i class="fa fa-rouble" aria-hidden="true"></i></div>
+                <div class="text">
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                    anim id est laborum."
+                  </p>
+                </div>
+              </div>
+            </div>
         </section>
-        <section>
-            <!--tarjetas con imagenes y descripcion-->
-        </section>
-        <section>
-            <!--agenda aqui-->
+        <!--tarjetas con imagenes y descripcion -->
+        <section id="section-dos">
+          <div>
+            <h2>DESTACADOS</h2>
+          </div>
+          <hr>
+          <div id="content-card">
+            <div class="card  text-bg-dark">
+              <img src="./assets/img/card-constitucion.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Lorem ipsum dolor sin amet</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                   labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="card  text-bg-dark" >
+              <img src="./assets/img/card-Isla-Damas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Consectetur adipsicing elit</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+            <div class="card  text-bg-dark">
+              <img src="./assets/img/card-Siete-Tazas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Sed do eiusmod tempor incididunt ut labore</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+            <div class="card  text-bg-dark">
+              <img src="./assets/img/card-valle-cochamo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>ut enim ad minim veniam</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                   dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
         <section>
             <!--Formulario-->
