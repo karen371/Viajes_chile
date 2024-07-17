@@ -35,7 +35,7 @@
 #carousel-slide img{
     height: 100vh;
 }
-main{
+.container-fluid{
     background-color: #000;
 }
 /*Seccion uno quienes somos*/
@@ -64,6 +64,10 @@ hr {
     font-size: 1rem;
     margin: 0 90px 0 90px ;
     gap: 15px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
 }
 .item i{
     font-size: 20px;
@@ -113,4 +117,51 @@ hr {
     color: #fff !important;
     font-size: 0.9rem;
     font-weight: 400;
+}
+/*seccion del formulario */
+#section-tres{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+#section-tres h2{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+#section-tres form{
+    margin: 0 90px 0 90px ;
+}
+#section-tres button{
+    background-color: #23BEC5;
+    margin-bottom: 20px;
+}
+/*footer*/
+footer{
+    background-color: #23BEC5;
+    padding: 20px; 
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 800px; 
+    margin: 0 auto;
+    font-size: 25px;
+    color:#fff ;
+}
+footer span{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0 90px 0 90px ;
+}
+footer img{
+    height: 50px;
+    width: 50px;
 }
