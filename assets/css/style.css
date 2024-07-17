@@ -39,7 +39,6 @@
     background-color: #000;
 }
 /*Seccion uno quienes somos*/
-
 #section-uno{
     display: flex;
     flex-direction: column;
@@ -164,4 +163,72 @@ footer span{
 footer img{
     height: 50px;
     width: 50px;
+}
+
+/*responsivo*/
+@media (max-width: 768px) {
+    .carousel-item img {
+      max-height: 300px; /* Altura máxima en dispositivos más pequeños */
+    }
+    /* seccion uno */
+    #section-uno{
+        display: none;
+    }
+    /*seccion dos*/
+    #section-dos h2{
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #content-card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card{
+        width: 280px;
+    }
+    .card img{
+        width: 278px;
+        height: 180px;
+    }
+    .card-body{
+        background-color: #23BEC5;
+    }
+    .card-body h5{
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .card.text{
+        color: #fff !important;
+        font-size: 0.6rem;
+        font-weight: 400;
+    }
+    /*formulario*/
+    #section-tres h2{
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #section-tres form{
+        margin: 0 0 0 0;
+    }
+    /*footer*/
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        font-size: 20px;
+        color:#fff ;
+    }
+    footer span{
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0 90px 0 90px ;
+    }
+
 }
