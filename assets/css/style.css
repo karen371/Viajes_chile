@@ -35,8 +35,13 @@
 #carousel-slide img{
     height: 100vh;
 }
-.container-fluid{
+main{
     background-color: #000;
+}
+main hr {
+    border-top: 2px solid #23BEC5;
+    width: 70%;
+    margin: 0 auto;
 }
 /*Seccion uno quienes somos*/
 #section-uno{
@@ -46,11 +51,7 @@
     align-items: center;
     color: #fff;
 }
-hr {
-    border-top: 2px solid #23BEC5;
-    width: 70%;
-    margin: 0 auto;
-}
+/*linea*/
 #section-uno h2{
     font-weight: 700;
     font-size: 2rem;
@@ -61,7 +62,7 @@ hr {
     display: flex;
     flex-direction: row;
     font-size: 1rem;
-    margin: 0 90px 0 90px ;
+    margin: 18px 90px 0 90px ;
     gap: 15px;
 }
 .item{
@@ -95,7 +96,7 @@ hr {
 #content-card{
     display: flex;
     flex-direction: row;
-    margin: 0 90px 0 90px ;
+    margin: 18px 90px 0 90px ;
     gap: 10px;
 }
 .card{
@@ -130,7 +131,7 @@ hr {
     margin-top: 30px;
 }
 #section-tres form{
-    margin: 0 90px 0 90px ;
+    margin: 18px 90px 0 90px ;
 }
 #section-tres button{
     background-color: #23BEC5;
@@ -153,18 +154,21 @@ footer{
     font-size: 25px;
     color:#fff ;
 }
-footer span{
+.footer-content span{
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     margin: 0 90px 0 90px ;
 }
-footer img{
+
+.footer-content img{
     height: 50px;
     width: 50px;
 }
-
+.footer-content a{
+    color: #fff;
+}
 /*responsivo*/
 @media (max-width: 768px) {
     .carousel-item img {

@@ -27,7 +27,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg  fixed-top" data-bs-theme="dark" >
+    <nav class="navbar navbar-expand-lg  fixed-top" data-bs-theme="dark">
       <div class="container-fluid px-5">
         <a class="navbar-brand" href="#" id="logo">
           <img src="assets/img/logo.png" alt="logo">
@@ -39,19 +39,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" href="#carousel-slide">Inicio</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link active" href="#">Quienes Somos</a>
+              <a class="nav-link active" href="#section-uno">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Destacados</a>
-            </li>
+              <a class="nav-link active" href="#section-dos">Destacados</a>
+            </li>  
             <li class="nav-item">
-              <a class="nav-link active" href="#">Agenda Aquí</a>
-            </li>   
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Contacto</a>
+              <a class="nav-link active" href="#section-tres">Contacto</a>
             </li>                     
           </ul>
         </div>
@@ -101,7 +98,7 @@
       </button>
     </div>
   </header>
-  <main class="container-fluid">
+  <main>
     <!--quienes somos DESAPARECER EN TAMAOS PEQUEÑOS-->
     <section id="section-uno">
       <div>
@@ -173,7 +170,7 @@
           </div>
         </div>
         <div class="card  text-bg-dark">
-          <img src="./assets/img/card-Siete-Tazas.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/card-Siete-Tazas.jpg" class="card-img-top" alt="..." >
           <div class="card-body">
             <h5>Sed do eiusmod tempor incididunt ut labore</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -182,7 +179,7 @@
           </div>
         </div>
         <div class="card  text-bg-dark">
-          <img src="./assets/img/card-valle-cochamo.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/card-valle-cochamo.jpg" class="card-img-top" alt="..." >
           <div class="card-body">
             <h5>ut enim ad minim veniam</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -197,18 +194,19 @@
       <div>
         <h2>CONTACTO</h2>
       </div>
-      <form>
+      <hr>
+      <form id="MyFormulario">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="Nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Asunto</label>
-          <input type="text" class="form-control" id="exampleInputPassword1">
+          <label for="Asunto" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="Asunto">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+          <label for="Mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="Mensaje" rows="4"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
@@ -218,10 +216,10 @@
     <div class="footer-content">
       <span><img src="assets/img/logo.png" alt="logo">Viajes chile</span>
       <div class="redes">   
-        <i class="fa fa-github" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <a href="https://github.com/" target="_bank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-tooltip-color="primary" title="GitHub"><i class="fa fa-github" aria-hidden="true" ></i></a>
+        <a href="https://www.linkedin.com/" target="_bank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-tooltip-color="primary" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://web.facebook.com/" target="_bank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-tooltip-color="primary" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://x.com/" target="_bank"  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-tooltip-color="primary" title="X"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       </div>
     </div>
   </footer>
