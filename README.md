@@ -3,7 +3,7 @@
 **No tengo el apoyo del desafío, así que las imágenes y el logo fueron sacados de internet**
 
 
-Pagina de GitHub  [GitHub Pages]().
+Pagina de GitHub  [GitHub Pages](https://karen371.github.io/Viajes_chile/).
 
 ##Descripcion de la página
 ```
